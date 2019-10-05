@@ -4,7 +4,7 @@ if (keyboard_check(vk_right))
 {
 	if (place_free(kittenX + kittenXVelocity, kittenY))
 	{
-		image_xscale = 1
+		image_xscale = 1;
 		kittenX += kittenXVelocity;
 		kittenXVelocity = min(kittenXVelocity + kittenXAcceleration, maxKittenXVelocity);
 	}
@@ -13,7 +13,7 @@ else if (keyboard_check(vk_left))
 {
 	if (place_free(kittenX - kittenXVelocity, kittenY))
 	{
-		image_xscale = -1
+		image_xscale = -1;
 		kittenX -= kittenXVelocity;
 		kittenXVelocity = min(kittenXVelocity + kittenXAcceleration, maxKittenXVelocity);
 	}
