@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "02d6c496-b5b2-488c-a5af-2f92e1c0473d",
+            "Value": {
+                "id": "d36b9987-795c-45f7-a0f3-bea6215e4057",
+                "resourcePath": "sprites\\sprite_kitten_jumping\\sprite_kitten_jumping.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0d6ef25c-6dea-4496-9a02-d2a626c93df9",
+            "Value": {
+                "id": "2e0e3295-76c7-423c-a9af-53cea9fc8061",
+                "resourcePath": "views\\0d6ef25c-6dea-4496-9a02-d2a626c93df9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1c88a86e-b4eb-46ca-a513-b6220796ce70",
             "Value": {
                 "id": "19ea1521-fd16-4910-b9be-e8f70ba09031",
@@ -71,11 +87,27 @@
             }
         },
         {
+            "Key": "3840b81f-0b2d-4b36-b551-7d2590765d18",
+            "Value": {
+                "id": "58e76192-070d-40cd-ad0f-38962f40d7ea",
+                "resourcePath": "sprites\\sprite_kitten_falling\\sprite_kitten_falling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3eb7f0ef-2032-4b23-bdb5-e87c0c565d0f",
             "Value": {
                 "id": "be0c1a94-b8c8-4ede-a3ee-6c2bceb062f0",
                 "resourcePath": "views\/3eb7f0ef-2032-4b23-bdb5-e87c0c565d0f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3f1142fe-b29f-4734-a9db-a1377664b12b",
+            "Value": {
+                "id": "45f295c3-fb1a-4477-b87e-daa05f23b26a",
+                "resourcePath": "sprites\\sprite_kitten_idle\\sprite_kitten_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

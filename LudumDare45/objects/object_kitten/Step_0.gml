@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+// handle walking
 if (keyboard_check(vk_right))
 {
 	if (place_free(kittenX + kittenXVelocity, kittenY))
@@ -8,6 +10,7 @@ if (keyboard_check(vk_right))
 		kittenX += kittenXVelocity;
 		kittenXVelocity = min(kittenXVelocity + kittenXAcceleration, maxKittenXVelocity);
 	}
+	sprite_index = sprite_kitten_walking;
 }
 else if (keyboard_check(vk_left))
 {
@@ -17,31 +20,48 @@ else if (keyboard_check(vk_left))
 		kittenX -= kittenXVelocity;
 		kittenXVelocity = min(kittenXVelocity + kittenXAcceleration, maxKittenXVelocity);
 	}
+	sprite_index = sprite_kitten_walking;
 }
 else
 {
 	kittenXVelocity = 0.0;
+	sprite_index = sprite_kitten_idle;
 }
 
+// handle gravity
 if (place_free(kittenX, kittenY + kittenYVelocity))
 {
 	kittenY += kittenYVelocity;
-	
 	kittenYVelocity = min(kittenYVelocity + kittenYAcceleration, maxKittenYVelocity);
+	
+	if (kittenYVelocity < 0.0)
+	{
+		sprite_index = sprite_kitten_jumping;
+	}
+	else if (place_free(kittenX, kittenY + kittenYVelocity))
+	{
+		sprite_index = sprite_kitten_falling;
+	}
 	
 }
 else
 {
 	kittenYVelocity = 0.0;
-	jumping = false
+	
+	if (!keyboard_check(vk_space))
+	{
+		jumping = false
+	}
 }
 
+// handle jumping
 if (keyboard_check(vk_space) && !jumping)
 {
 	kittenYVelocity = -7.0;
 	jumping = true;
 }
 
+// handle money
 while (place_meeting(kittenX, kittenY, object_money))
 {
 	var money = instance_nearest(kittenX, kittenY, object_money);
