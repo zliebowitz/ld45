@@ -28,20 +28,18 @@ if (place_free(kittenX, kittenY + kittenYVelocity))
 	kittenY += kittenYVelocity;
 	
 	kittenYVelocity = min(kittenYVelocity + kittenYAcceleration, maxKittenYVelocity);
+	
 }
 else
 {
 	kittenYVelocity = 0.0;
+	jumping = false
 }
 
 if (keyboard_check(vk_space) && !jumping)
 {
 	kittenYVelocity = -7.0;
 	jumping = true;
-}
-else if (!keyboard_check(vk_space))
-{
-	jumping = false;
 }
 
 x = floor(kittenX);
