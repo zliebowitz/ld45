@@ -79,10 +79,18 @@
             }
         },
         {
+            "Key": "4612e138-a4cb-4a57-94de-d47d587e0a5d",
+            "Value": {
+                "id": "fea8eb09-2dff-4e6b-8883-2c42f5db4250",
+                "resourcePath": "objects\/object_static\/object_static.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "47570e73-a485-452d-8998-2102b3e410b5",
             "Value": {
                 "id": "ca89c072-a830-4842-a8b8-6511f3b6b2a3",
-                "resourcePath": "sprites\\sprite_mean_yarn_ball\\sprite_mean_yarn_ball.yy",
+                "resourcePath": "sprites\/sprite_mean_yarn_ball\/sprite_mean_yarn_ball.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -106,7 +114,7 @@
             "Key": "605f1972-d4f9-4d97-ad32-a52966615c39",
             "Value": {
                 "id": "609519aa-4a2e-40f2-b45c-8837d5afceed",
-                "resourcePath": "objects\\object_mean_yarn_ball\\object_mean_yarn_ball.yy",
+                "resourcePath": "objects\/object_mean_yarn_ball\/object_mean_yarn_ball.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -196,6 +204,14 @@
                 "id": "3e44adeb-feae-42c1-a94f-abc8569aed49",
                 "resourcePath": "views\/e853570d-9d05-4ee2-988e-9edad824fa5c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9c156a0-4bcc-4a4d-b65f-788306240d6a",
+            "Value": {
+                "id": "129be459-5c2d-4f1e-9ce7-d6a9e97a7310",
+                "resourcePath": "objects\/object_dynamic\/object_dynamic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
