@@ -2,23 +2,53 @@
 // You can write your code in this editor
 if (keyboard_check(vk_right))
 {
-	image_xscale = 1;
-	phy_linear_velocity_x = kittenXVelocity
-	kittenXVelocity = min(kittenXVelocity + kittenXAcceleration,maxKittenXVelocity);
+	if (place_free(kittenX + kittenXVelocity, kittenY))
+	{
+		image_xscale = 1;
+		kittenX += kittenXVelocity;
+		kittenXVelocity = min(kittenXVelocity + kittenXAcceleration, maxKittenXVelocity);
+	}
 }
 else if (keyboard_check(vk_left))
 {
-	image_xscale = -1;
-	phy_linear_velocity_x = -kittenXVelocity
-	kittenXVelocity = min(kittenXVelocity + kittenXAcceleration, maxKittenXVelocity);
+	if (place_free(kittenX - kittenXVelocity, kittenY))
+	{
+		image_xscale = -1;
+		kittenX -= kittenXVelocity;
+		kittenXVelocity = min(kittenXVelocity + kittenXAcceleration, maxKittenXVelocity);
+	}
+}
+else
+{
+	kittenXVelocity = 0.0;
 }
 
+if (place_free(kittenX, kittenY + kittenYVelocity))
+{
+	kittenY += kittenYVelocity;
+	
+	kittenYVelocity = min(kittenYVelocity + kittenYAcceleration, maxKittenYVelocity);
+	
+}
+else
+{
+	kittenYVelocity = 0.0;
+	jumping = false
+}
 
 if (keyboard_check(vk_space) && !jumping)
 {
-	phy_linear_velocity_y = -120.0;
+	kittenYVelocity = -7.0;
 	jumping = true;
 }
 
-//otherwise can be accidently rotated.
-phy_rotation = 0;
+while (place_meeting(kittenX, kittenY, object_money))
+{
+	var money = instance_nearest(kittenX, kittenY, object_money);
+	instance_destroy(money);
+	money++;
+}
+
+
+x = floor(kittenX);
+y = floor(kittenY);
