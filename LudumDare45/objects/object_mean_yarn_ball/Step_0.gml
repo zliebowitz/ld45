@@ -31,6 +31,11 @@ else if (image_index == 1)
 	image_xscale = -1.0;
 }
 
+if (place_meeting(yarnX + xVelocity, yarnY + yVelocity, object_kitten))
+{
+	decrement_health(object_kitten);
+}
+
 if (image_index == 2 && place_free(yarnX, yarnY + yVelocity))
 {
 	if (image_xscale = 1.0)

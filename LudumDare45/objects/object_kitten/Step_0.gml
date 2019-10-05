@@ -4,6 +4,10 @@
 // handle walking
 if (keyboard_check(vk_right))
 {
+	if (place_meeting(kittenX + kittenXVelocity, kittenY, object_mean_yarn_ball))
+	{
+		decrement_health(self);
+	}
 	if (place_free(kittenX + kittenXVelocity, kittenY))
 	{
 		image_xscale = 1;
@@ -14,6 +18,10 @@ if (keyboard_check(vk_right))
 }
 else if (keyboard_check(vk_left))
 {
+	if (place_meeting(kittenX - kittenXVelocity, kittenY, object_mean_yarn_ball))
+	{
+		decrement_health(self);
+	}
 	if (place_free(kittenX - kittenXVelocity, kittenY))
 	{
 		image_xscale = -1;
@@ -46,6 +54,10 @@ if (place_free(kittenX, kittenY + kittenYVelocity))
 }
 else
 {
+	if (place_meeting(kittenX, kittenY + kittenYVelocity, object_mean_yarn_ball))
+	{
+		decrement_health(self);
+	}
 	kittenYVelocity = 0.0;
 	
 	if (!keyboard_check(vk_space))

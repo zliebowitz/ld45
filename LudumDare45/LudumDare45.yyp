@@ -34,7 +34,7 @@
             "Key": "02d6c496-b5b2-488c-a5af-2f92e1c0473d",
             "Value": {
                 "id": "d36b9987-795c-45f7-a0f3-bea6215e4057",
-                "resourcePath": "sprites\\sprite_kitten_jumping\\sprite_kitten_jumping.yy",
+                "resourcePath": "sprites\/sprite_kitten_jumping\/sprite_kitten_jumping.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -42,7 +42,7 @@
             "Key": "0d6ef25c-6dea-4496-9a02-d2a626c93df9",
             "Value": {
                 "id": "2e0e3295-76c7-423c-a9af-53cea9fc8061",
-                "resourcePath": "views\\0d6ef25c-6dea-4496-9a02-d2a626c93df9.yy",
+                "resourcePath": "views\/0d6ef25c-6dea-4496-9a02-d2a626c93df9.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -50,7 +50,7 @@
             "Key": "1671a4d7-a223-4421-ae48-e782c329cd0d",
             "Value": {
                 "id": "e9d72a8b-40fe-45f0-8a1b-2caf4b0adf32",
-                "resourcePath": "sounds\\sound_shop_music\\sound_shop_music.yy",
+                "resourcePath": "sounds\/sound_shop_music\/sound_shop_music.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -74,7 +74,7 @@
             "Key": "23341056-473c-46ef-85c0-a598034ea1c6",
             "Value": {
                 "id": "3ca15f47-2eb7-449b-9481-8c148d711da4",
-                "resourcePath": "rooms\\room011\\room011.yy",
+                "resourcePath": "rooms\/room011\/room011.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -106,7 +106,7 @@
             "Key": "337e3fac-b57b-4e45-a3b8-0125eff93eef",
             "Value": {
                 "id": "f3be5f2d-5ed2-4f37-ae8b-ea57920afe82",
-                "resourcePath": "rooms\\room_shop\\room_shop.yy",
+                "resourcePath": "rooms\/room_shop\/room_shop.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -114,7 +114,7 @@
             "Key": "3533a74b-3837-47ff-8ceb-3dcd29c0ef0c",
             "Value": {
                 "id": "ae97b8f5-d804-413b-8477-f6055d8e4fac",
-                "resourcePath": "objects\\object6\\object6.yy",
+                "resourcePath": "objects\/object6\/object6.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -122,7 +122,7 @@
             "Key": "3840b81f-0b2d-4b36-b551-7d2590765d18",
             "Value": {
                 "id": "58e76192-070d-40cd-ad0f-38962f40d7ea",
-                "resourcePath": "sprites\\sprite_kitten_falling\\sprite_kitten_falling.yy",
+                "resourcePath": "sprites\/sprite_kitten_falling\/sprite_kitten_falling.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -138,7 +138,7 @@
             "Key": "3f1142fe-b29f-4734-a9db-a1377664b12b",
             "Value": {
                 "id": "45f295c3-fb1a-4477-b87e-daa05f23b26a",
-                "resourcePath": "sprites\\sprite_kitten_idle\\sprite_kitten_idle.yy",
+                "resourcePath": "sprites\/sprite_kitten_idle\/sprite_kitten_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -170,7 +170,7 @@
             "Key": "59975998-7e82-4230-a742-f38e224dfbdc",
             "Value": {
                 "id": "97ce9043-7f30-41a6-9f39-95cf9ba1c358",
-                "resourcePath": "rooms\\room01\\room01.yy",
+                "resourcePath": "rooms\/room01\/room01.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -180,6 +180,14 @@
                 "id": "d2861b3e-17c2-4571-8065-80986865b456",
                 "resourcePath": "views\/5b786033-db98-4010-9341-919fb617e32d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5d9b128f-400d-4da1-bea0-f93dddd9592f",
+            "Value": {
+                "id": "8feb127d-43e6-4ff8-8bcb-34873442f077",
+                "resourcePath": "scripts\/decrement_health\/decrement_health.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -250,7 +258,7 @@
             "Key": "ac8b80c2-7d97-4624-ae41-c25f328b2159",
             "Value": {
                 "id": "e676d525-c453-4e33-8042-e8f67cabe4f8",
-                "resourcePath": "sprites\\sprite_door\\sprite_door.yy",
+                "resourcePath": "sprites\/sprite_door\/sprite_door.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -354,13 +362,13 @@
             "Key": "ff9a8c9a-d276-4499-9667-c57b538fd19d",
             "Value": {
                 "id": "3363b698-ec2e-4695-8beb-4ff82473af2d",
-                "resourcePath": "objects\\object_shop_music\\object_shop_music.yy",
+                "resourcePath": "objects\/object_shop_music\/object_shop_music.yy",
                 "resourceType": "GMObject"
             }
         }
     ],
     "script_order": [
-        
+        "5d9b128f-400d-4da1-bea0-f93dddd9592f"
     ],
     "tutorial": ""
 }
