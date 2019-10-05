@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "47570e73-a485-452d-8998-2102b3e410b5",
+            "Value": {
+                "id": "ca89c072-a830-4842-a8b8-6511f3b6b2a3",
+                "resourcePath": "sprites\\sprite_mean_yarn_ball\\sprite_mean_yarn_ball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b6123c7-8861-4603-b241-34bdb4320bfe",
             "Value": {
                 "id": "83eb487d-da3b-49e8-a141-17e8766fa690",
@@ -92,6 +100,14 @@
                 "id": "d2861b3e-17c2-4571-8065-80986865b456",
                 "resourcePath": "views\\5b786033-db98-4010-9341-919fb617e32d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "605f1972-d4f9-4d97-ad32-a52966615c39",
+            "Value": {
+                "id": "609519aa-4a2e-40f2-b45c-8837d5afceed",
+                "resourcePath": "objects\\object_mean_yarn_ball\\object_mean_yarn_ball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
