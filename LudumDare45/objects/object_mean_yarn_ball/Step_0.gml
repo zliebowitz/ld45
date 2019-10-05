@@ -22,11 +22,11 @@ else
 	image_index = 0;
 }
 
-if (object_kitten.x < x)
+if (object_kitten.x < yarnX && image_index == 1)
 {
 	image_xscale = 1.0;
 }
-else
+else if (image_index == 1)
 {
 	image_xscale = -1.0;
 }
