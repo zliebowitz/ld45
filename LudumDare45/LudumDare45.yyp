@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1671a4d7-a223-4421-ae48-e782c329cd0d",
+            "Value": {
+                "id": "e9d72a8b-40fe-45f0-8a1b-2caf4b0adf32",
+                "resourcePath": "sounds\\sound_shop_music\\sound_shop_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1c88a86e-b4eb-46ca-a513-b6220796ce70",
             "Value": {
                 "id": "19ea1521-fd16-4910-b9be-e8f70ba09031",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "337e3fac-b57b-4e45-a3b8-0125eff93eef",
+            "Value": {
+                "id": "f3be5f2d-5ed2-4f37-ae8b-ea57920afe82",
+                "resourcePath": "rooms\\room_shop\\room_shop.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3533a74b-3837-47ff-8ceb-3dcd29c0ef0c",
             "Value": {
                 "id": "ae97b8f5-d804-413b-8477-f6055d8e4fac",
@@ -102,13 +118,16 @@
                 "resourceType": "GMObject"
             }
         },
-        {            "Key": "3840b81f-0b2d-4b36-b551-7d2590765d18",            "Value": {
+        {
+            "Key": "3840b81f-0b2d-4b36-b551-7d2590765d18",
+            "Value": {
                 "id": "58e76192-070d-40cd-ad0f-38962f40d7ea",
                 "resourcePath": "sprites\\sprite_kitten_falling\\sprite_kitten_falling.yy",
                 "resourceType": "GMSprite"
             }
         },
-        {            "Key": "3eb7f0ef-2032-4b23-bdb5-e87c0c565d0f",
+        {
+            "Key": "3eb7f0ef-2032-4b23-bdb5-e87c0c565d0f",
             "Value": {
                 "id": "be0c1a94-b8c8-4ede-a3ee-6c2bceb062f0",
                 "resourcePath": "views\/3eb7f0ef-2032-4b23-bdb5-e87c0c565d0f.yy",
@@ -329,6 +348,14 @@
                 "id": "96721d52-525e-4e5a-b101-10919db82651",
                 "resourcePath": "sprites\/sprite_earth\/sprite_earth.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff9a8c9a-d276-4499-9667-c57b538fd19d",
+            "Value": {
+                "id": "3363b698-ec2e-4695-8beb-4ff82473af2d",
+                "resourcePath": "objects\\object_shop_music\\object_shop_music.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
