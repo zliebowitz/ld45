@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "23341056-473c-46ef-85c0-a598034ea1c6",
+            "Value": {
+                "id": "3ca15f47-2eb7-449b-9481-8c148d711da4",
+                "resourcePath": "rooms\\room011\\room011.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "24654428-4e79-4f11-b63f-003f5894a1ec",
             "Value": {
                 "id": "193585a9-4afc-43d0-8a78-624f7c34ff72",
@@ -87,15 +95,20 @@
             }
         },
         {
-            "Key": "3840b81f-0b2d-4b36-b551-7d2590765d18",
+            "Key": "3533a74b-3837-47ff-8ceb-3dcd29c0ef0c",
             "Value": {
+                "id": "ae97b8f5-d804-413b-8477-f6055d8e4fac",
+                "resourcePath": "objects\\object6\\object6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {            "Key": "3840b81f-0b2d-4b36-b551-7d2590765d18",            "Value": {
                 "id": "58e76192-070d-40cd-ad0f-38962f40d7ea",
                 "resourcePath": "sprites\\sprite_kitten_falling\\sprite_kitten_falling.yy",
                 "resourceType": "GMSprite"
             }
         },
-        {
-            "Key": "3eb7f0ef-2032-4b23-bdb5-e87c0c565d0f",
+        {            "Key": "3eb7f0ef-2032-4b23-bdb5-e87c0c565d0f",
             "Value": {
                 "id": "be0c1a94-b8c8-4ede-a3ee-6c2bceb062f0",
                 "resourcePath": "views\/3eb7f0ef-2032-4b23-bdb5-e87c0c565d0f.yy",
@@ -132,6 +145,14 @@
                 "id": "83eb487d-da3b-49e8-a141-17e8766fa690",
                 "resourcePath": "views\/4b6123c7-8861-4603-b241-34bdb4320bfe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "59975998-7e82-4230-a742-f38e224dfbdc",
+            "Value": {
+                "id": "97ce9043-7f30-41a6-9f39-95cf9ba1c358",
+                "resourcePath": "rooms\\room01\\room01.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -204,6 +225,14 @@
                 "id": "6135ce3a-6224-4e48-bde8-50f1d6292fc8",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ac8b80c2-7d97-4624-ae41-c25f328b2159",
+            "Value": {
+                "id": "e676d525-c453-4e33-8042-e8f67cabe4f8",
+                "resourcePath": "sprites\\sprite_door\\sprite_door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
