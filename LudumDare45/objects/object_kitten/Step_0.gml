@@ -20,4 +20,5 @@ if (keyboard_check(vk_space) && !jumping)
 	jumping = true;
 }
 
-phy_angular_velocity = 0
+//otherwise can be accidently rotated.
+phy_rotation = 0;
