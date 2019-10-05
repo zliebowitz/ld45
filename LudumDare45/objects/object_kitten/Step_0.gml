@@ -42,5 +42,13 @@ if (keyboard_check(vk_space) && !jumping)
 	jumping = true;
 }
 
+while (place_meeting(kittenX, kittenY, object_money))
+{
+	var money = instance_nearest(kittenX, kittenY, object_money);
+	instance_destroy(money);
+	money++;
+}
+
+
 x = floor(kittenX);
 y = floor(kittenY);

@@ -9,3 +9,4 @@ kittenYAcceleration = 0.25;
 kittenYVelocity = 0.0;
 kittenY = y;
 jumping = false;
+money = 0;
