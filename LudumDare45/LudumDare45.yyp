@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "22fabc87-dee3-4143-a94e-72b61c3b5dfd",
+            "Value": {
+                "id": "91ed016f-dd7b-4eff-b842-7b79b3e73873",
+                "resourcePath": "sprites\\sprite_gun_menu_item\\sprite_gun_menu_item.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "23341056-473c-46ef-85c0-a598034ea1c6",
             "Value": {
                 "id": "3ca15f47-2eb7-449b-9481-8c148d711da4",
@@ -284,6 +292,22 @@
                 "id": "2f2efb37-0d32-4c47-befa-46d13ed1e355",
                 "resourcePath": "scripts\/init_dialogue\/init_dialogue.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6b1c63df-76f5-4524-9164-7b4ac29c4524",
+            "Value": {
+                "id": "076d2627-4855-4d21-ac9c-a33b05de0049",
+                "resourcePath": "sprites\\sprite_helmet_menu_item\\sprite_helmet_menu_item.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6ba37d7a-b675-4306-a179-bc28ef1ff58c",
+            "Value": {
+                "id": "43d0b859-6105-4147-b2bd-1f279def8ebf",
+                "resourcePath": "sprites\\sprite_armor_menu_item\\sprite_armor_menu_item.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
