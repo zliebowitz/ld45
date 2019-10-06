@@ -13,3 +13,4 @@ money = 0;
 health = 5;
 spawnX = x;
 spawnY = y;
+vulnerable = true;
