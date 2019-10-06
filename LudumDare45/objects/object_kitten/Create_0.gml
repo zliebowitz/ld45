@@ -9,7 +9,10 @@ kittenYAcceleration = 0.25;
 kittenYVelocity = 0.0;
 kittenY = y;
 jumping = false;
-money = 0;
+if (!variable_global_exists("money"))
+{
+	global.money = 0;
+}
 health = 5;
 spawnX = x;
 spawnY = y;

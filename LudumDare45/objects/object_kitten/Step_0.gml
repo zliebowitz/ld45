@@ -78,7 +78,7 @@ while (place_meeting(kittenX, kittenY, object_money))
 {
 	var money_inst = instance_nearest(kittenX, kittenY, object_money);
 	instance_destroy(money_inst);
-	money++;
+	global.money++;
 }
 
 // handle attacking
