@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "5363064b-535a-4d43-acc8-e3e513aa59b3",
+            "Value": {
+                "id": "0063d254-1846-48fe-80f3-5285271b7836",
+                "resourcePath": "sprites\\sprite_breast_plate\\sprite_breast_plate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5623c0c6-889b-4b6f-bb26-d10de033cac7",
             "Value": {
                 "id": "a365360c-daff-48b8-bf7b-1020eb2b19b3",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "949f2539-d2c6-44bb-aca3-9cd33ad350d2",
+            "Value": {
+                "id": "89dc0782-0f81-4ab8-864f-37f76461e63f",
+                "resourcePath": "sprites\\sprite_gun\\sprite_gun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9715ba1f-1134-47a7-b8c9-e22b33d75429",
             "Value": {
                 "id": "a87c9034-8574-4a87-92d4-a888eea4b0da",
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "af95daff-46db-44bf-8572-fbaeb8c2e998",
+            "Value": {
+                "id": "c9ff17f0-674b-45c5-bb6c-8e1f6e5b3806",
+                "resourcePath": "sprites\\sprite_dropped_heart\\sprite_dropped_heart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b42ffdcf-a512-440c-9ec6-e0ba619a0f27",
             "Value": {
                 "id": "a7c14143-69cf-4bbe-bb79-d4a6615e94ac",
@@ -484,6 +508,14 @@
                 "id": "b4598705-5571-4181-b8f5-719f0d891905",
                 "resourcePath": "scripts\/draw_dialogue\/draw_dialogue.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dafa5713-26c8-4328-8744-02af70e8d9cc",
+            "Value": {
+                "id": "80fbc00a-a016-43ba-96b6-a825535d367d",
+                "resourcePath": "sprites\\sprite_helmet\\sprite_helmet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
