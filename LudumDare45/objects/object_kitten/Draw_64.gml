@@ -5,9 +5,13 @@
 var hs = sprite_health;
 var hs_height = sprite_get_height(hs) * 2;
 var hs_width = sprite_get_width(hs) * 2;
-for (i = 0; i < ceil(health / 8); i++)
+for (i = 0; i < floor(health / 8); i++)
 {
 	draw_sprite_stretched(hs, 0,  10 + camera_get_view_x(view_camera[view_current]) + i * (hs_width * 1.2), 10 + camera_get_view_y(view_camera[view_current]), hs_width, hs_height);
+}
+if (health % 8 >= 4)
+{
+	draw_sprite_stretched(hs, 1,  10 + camera_get_view_x(view_camera[view_current]) + int64(health / 8) * (hs_width * 1.2), 10 + camera_get_view_y(view_camera[view_current]), hs_width, hs_height);
 }
 
 var ms = sprite_money;
