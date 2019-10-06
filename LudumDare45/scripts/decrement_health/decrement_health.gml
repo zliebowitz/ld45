@@ -9,6 +9,7 @@ if (health <= 0)
 		// Destroys all instances
 		instance_destroy(object_scratch);
 		instance_destroy(object_money);
+		instance_destroy(object_dropped_heart);
 }
 else
 {

@@ -13,7 +13,10 @@ if (!variable_global_exists("money"))
 {
 	global.money = 0;
 }
-health = 5;
+if (health > 10 || health == 0)
+{
+	health = 5;
+}
 spawnX = x;
 spawnY = y;
 vulnerable = true;

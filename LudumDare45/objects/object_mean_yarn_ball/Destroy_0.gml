@@ -5,3 +5,7 @@ for (i = 0; i < coins; i++)
 {
 	instance_create_layer(x + random_range(-10, 10), y + random_range(-10, 10), layer, object_money);
 }
+if (random(1) <= .4)
+{
+	instance_create_layer(x, y, layer, object_dropped_heart);
+}
