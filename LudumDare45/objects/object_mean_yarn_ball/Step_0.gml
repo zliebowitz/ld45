@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if (sprite_index = sprite_mean_yarn_ball_dying)
+{
+	return;
+}
+
 deltaX = object_kitten.x - x;
 deltaY = object_kitten.y - y;
 distance = sqrt(deltaX * deltaX + deltaY * deltaY);
