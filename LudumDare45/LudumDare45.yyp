@@ -95,10 +95,26 @@
             }
         },
         {
+            "Key": "29c0edc4-f892-429e-af7a-4ca9d01a71d6",
+            "Value": {
+                "id": "074550bd-36ee-4f05-b5f1-c16b9e663a0e",
+                "resourcePath": "objects\\object_sell_menu_item\\object_sell_menu_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2de80a72-650e-4ffc-9dcb-213e72421780",
             "Value": {
                 "id": "1fe9d204-f068-43db-b8a5-aea4fa4cb1de",
                 "resourcePath": "objects\/object_kitten\/object_kitten.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2e6f8ac5-f017-4710-a9ed-c5a17bb0c230",
+            "Value": {
+                "id": "53a3e182-24b6-48e3-8c0d-b466a89af284",
+                "resourcePath": "objects\\object_psycho_bunny\\object_psycho_bunny.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -167,6 +183,22 @@
             }
         },
         {
+            "Key": "4c51e56f-7926-4900-9cec-9ab356f529d9",
+            "Value": {
+                "id": "c7cd96c8-8e18-4960-8cc1-02cb1ebece08",
+                "resourcePath": "sprites\\sprite_exit_menu_item\\sprite_exit_menu_item.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5623c0c6-889b-4b6f-bb26-d10de033cac7",
+            "Value": {
+                "id": "a365360c-daff-48b8-bf7b-1020eb2b19b3",
+                "resourcePath": "scripts\\init_action_dialogue\\init_action_dialogue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "59975998-7e82-4230-a742-f38e224dfbdc",
             "Value": {
                 "id": "97ce9043-7f30-41a6-9f39-95cf9ba1c358",
@@ -199,11 +231,67 @@
             }
         },
         {
+            "Key": "64fedf38-f637-46a4-9d78-c42cebc2b0c1",
+            "Value": {
+                "id": "fe136a5c-e73a-46cf-acf3-94565dc7aa48",
+                "resourcePath": "fonts\\font_dialogue\\font_dialogue.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "6a6bbcd1-e9ce-4c99-b916-bbe5281bbd6b",
+            "Value": {
+                "id": "2f2efb37-0d32-4c47-befa-46d13ed1e355",
+                "resourcePath": "scripts\\init_dialogue\\init_dialogue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6ddfd6b6-9175-4f0c-ba88-561d7095d4f6",
+            "Value": {
+                "id": "389a2fbb-8257-4828-ab3e-9dffe37c44fb",
+                "resourcePath": "objects\\object_psycho_bunny_dialog_logic\\object_psycho_bunny_dialog_logic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e410583-ce45-4e28-852d-01db6e988c6b",
+            "Value": {
+                "id": "ad74d88f-974d-4535-8844-e2f1933b3764",
+                "resourcePath": "sprites\\sprite_sell_menu_item\\sprite_sell_menu_item.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "761ebeb6-5707-4621-9d83-0dbea1f828aa",
+            "Value": {
+                "id": "9ba64b73-5d70-445a-a8f0-4df31a4ee099",
+                "resourcePath": "scripts\\draw_action_dialogue\\draw_action_dialogue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8604dd24-89c4-479a-b668-62c3b6298981",
             "Value": {
                 "id": "f98a93e8-6e87-4260-b535-23fe92d13025",
                 "resourcePath": "sprites\/sprite_health\/sprite_health.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "891b06d5-0344-44d7-bc58-84eeac9e2fbd",
+            "Value": {
+                "id": "39be429b-27ac-4df2-bf67-1a20401ef963",
+                "resourcePath": "objects\\object_exit_menu_item\\object_exit_menu_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8995fcd5-217d-408a-8bd8-d5e5e0583188",
+            "Value": {
+                "id": "f8c8abe0-8ab3-4e2e-ae50-01acd6838e70",
+                "resourcePath": "views\\8995fcd5-217d-408a-8bd8-d5e5e0583188.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -247,6 +335,14 @@
             }
         },
         {
+            "Key": "a44ba22d-d6be-4966-a9ea-a401cc212901",
+            "Value": {
+                "id": "be668253-dcec-4a3e-b474-c407b6074d67",
+                "resourcePath": "sprites\\sprite_buy_menu_item\\sprite_buy_menu_item.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a611865b-8c9f-43ec-b372-729f92edce6d",
             "Value": {
                 "id": "70f0f6b2-156a-48a1-acd9-b4627c35674b",
@@ -271,6 +367,38 @@
             }
         },
         {
+            "Key": "b42ffdcf-a512-440c-9ec6-e0ba619a0f27",
+            "Value": {
+                "id": "a7c14143-69cf-4bbe-bb79-d4a6615e94ac",
+                "resourcePath": "sprites\\sprite_psycho_bunny_calm\\sprite_psycho_bunny_calm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b666bc15-2fd2-4042-a0ab-1b8b9fab118a",
+            "Value": {
+                "id": "a025cdc0-f62c-498f-9e8b-ad7cb1ab526d",
+                "resourcePath": "sprites\\sprite_psycho_bunny_dialog\\sprite_psycho_bunny_dialog.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b75c13e2-beea-461c-9529-78aea623b2e8",
+            "Value": {
+                "id": "3fad9da4-d155-4b6d-baa6-bff96a7b2da3",
+                "resourcePath": "objects\\object_buy_menu_item\\object_buy_menu_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c40a8505-da3c-4b3f-b0da-920548eb42bc",
+            "Value": {
+                "id": "7a56e43e-2517-4ea3-bebc-5abd7c057e23",
+                "resourcePath": "views\\c40a8505-da3c-4b3f-b0da-920548eb42bc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "c10bd880-8876-4d1c-8a35-3b6387257ec5",
@@ -284,6 +412,22 @@
                 "id": "ab8f334f-6829-4b6d-ad13-07c674c7b6b9",
                 "resourcePath": "views\/d5a49e3e-fea8-4519-a5f3-2c99c70b41cb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d90bd4e3-37f9-44ec-b31c-af1016c623e2",
+            "Value": {
+                "id": "b4598705-5571-4181-b8f5-719f0d891905",
+                "resourcePath": "scripts\\draw_dialogue\\draw_dialogue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "db79bf7e-aecc-447e-9b78-3ab994df63da",
+            "Value": {
+                "id": "7b91e3c1-497c-4a11-983f-a166cef3fc43",
+                "resourcePath": "sprites\\sprite_psycho_bunny_psycho\\sprite_psycho_bunny_psycho.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -351,6 +495,14 @@
             }
         },
         {
+            "Key": "f71c4594-480f-4472-91b8-d36f84d72e66",
+            "Value": {
+                "id": "548c322a-fdab-4690-aec7-52616b899a77",
+                "resourcePath": "objects\\object_psycho_bunny_dialog\\object_psycho_bunny_dialog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f887e825-0299-4966-840e-53f8a1a9ee51",
             "Value": {
                 "id": "99bae76c-9fd3-46b5-a07a-42e5b0de4521",
@@ -376,7 +528,11 @@
         }
     ],
     "script_order": [
-        "5d9b128f-400d-4da1-bea0-f93dddd9592f"
+        "5d9b128f-400d-4da1-bea0-f93dddd9592f",
+        "5623c0c6-889b-4b6f-bb26-d10de033cac7",
+        "761ebeb6-5707-4621-9d83-0dbea1f828aa",
+        "6a6bbcd1-e9ce-4c99-b916-bbe5281bbd6b",
+        "d90bd4e3-37f9-44ec-b31c-af1016c623e2"
     ],
     "tutorial": ""
 }
