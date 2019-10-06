@@ -351,11 +351,27 @@
             }
         },
         {
+            "Key": "74e61be9-80c9-4409-8077-8c4ba649d1c0",
+            "Value": {
+                "id": "50daa56c-a988-4ef5-918d-9f0b4bad6d3b",
+                "resourcePath": "sprites\\sprite_armor_dying\\sprite_armor_dying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "761ebeb6-5707-4621-9d83-0dbea1f828aa",
             "Value": {
                 "id": "9ba64b73-5d70-445a-a8f0-4df31a4ee099",
                 "resourcePath": "scripts\/draw_action_dialogue\/draw_action_dialogue.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7ef347e0-506a-4dd4-844c-98f0f8910b7e",
+            "Value": {
+                "id": "e842ab90-ba30-451e-b115-c2027630ab73",
+                "resourcePath": "sprites\\sprite_armor_jumping\\sprite_armor_jumping.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "9a69dfe3-a06b-4a04-8984-97c3f8b32be4",
+            "Value": {
+                "id": "6fc78262-a1ac-4e0e-8af2-583e3dad6df7",
+                "resourcePath": "sprites\\sprite_armor_falling\\sprite_armor_falling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9aa7a447-a987-4eb4-b912-bc089a0f162d",
             "Value": {
                 "id": "04c9d957-5e50-47de-b343-1fdf34d958e8",
@@ -428,6 +452,14 @@
                 "id": "4e07af2e-e65a-4dd3-8e27-f45068ab9296",
                 "resourcePath": "views\/9d9c0cc7-42b7-4fe0-8f46-f1518db7fa8f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9e0413f6-c5e1-4493-a1cf-d6d4dd238572",
+            "Value": {
+                "id": "2f8b0841-2155-4303-9fda-347e4b6dcfea",
+                "resourcePath": "sprites\\sprite_armor_idle\\sprite_armor_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -551,6 +583,14 @@
             }
         },
         {
+            "Key": "d8cfbac4-d572-4a50-859c-61378527dd32",
+            "Value": {
+                "id": "f5479c24-d22e-4359-810b-8ab79f71c1dd",
+                "resourcePath": "views\\d8cfbac4-d572-4a50-859c-61378527dd32.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d90bd4e3-37f9-44ec-b31c-af1016c623e2",
             "Value": {
                 "id": "b4598705-5571-4181-b8f5-719f0d891905",
@@ -652,6 +692,14 @@
                 "id": "548c322a-fdab-4690-aec7-52616b899a77",
                 "resourcePath": "objects\/object_psycho_bunny_dialog\/object_psycho_bunny_dialog.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f7f6fb34-161d-42d4-b1c1-f6fdae87f05a",
+            "Value": {
+                "id": "c601fc71-ca2c-46dc-9072-d50b2e721db3",
+                "resourcePath": "sprites\\sprite_armor_walking\\sprite_armor_walking.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
