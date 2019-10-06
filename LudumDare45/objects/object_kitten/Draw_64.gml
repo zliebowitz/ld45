@@ -5,9 +5,12 @@
 var hs = sprite_health;
 var hs_height = sprite_get_height(hs);
 var hs_width = sprite_get_width(hs);
-for (i = 0; i < health; i++)
+if (vulnerable || alarm[0] % 4 < 2)
 {
-	draw_sprite(hs, 0, camera_get_view_x(view_camera[view_current]) + i * (hs_width * 1.2), camera_get_view_y(view_camera[view_current]));
+	for (i = 0; i < health; i++)
+	{
+		draw_sprite(hs, 0, camera_get_view_x(view_camera[view_current]) + i * (hs_width * 1.2), camera_get_view_y(view_camera[view_current]));
+	}
 }
 
 var ms = sprite_money;
