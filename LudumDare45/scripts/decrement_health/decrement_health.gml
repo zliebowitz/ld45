@@ -5,7 +5,7 @@ if (!argument0.vulnerable)
 health--;
 if (health <= 0)
 {
-        instance_destroy(argument0.id);
+        argument0.sprite_index = sprite_kitten_dying;
 		// Destroys all instances
 		instance_destroy(object_scratch);
 		instance_destroy(object_money);
