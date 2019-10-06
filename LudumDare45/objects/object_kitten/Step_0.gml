@@ -76,11 +76,20 @@ if (keyboard_check(vk_space) && !jumping)
 // handle money
 while (place_meeting(kittenX, kittenY, object_money))
 {
-	var money = instance_nearest(kittenX, kittenY, object_money);
-	instance_destroy(money);
+	var money_inst = instance_nearest(kittenX, kittenY, object_money);
+	instance_destroy(money_inst);
 	money++;
 }
 
+// handle attacking
+if (keyboard_check_pressed(vk_shift) && canScratch)
+{
+	canScratch = false;
+	alarm[1] = global.scratch_time;
+	// width becomes negative if facing left ... (Hoskins discovery)
+	var s = instance_create_layer(x + sprite_width, y, layer, object_scratch);
+	s.image_xscale = image_xscale;
+}
 
 x = floor(kittenX);
 y = floor(kittenY);

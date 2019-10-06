@@ -14,3 +14,5 @@ health = 5;
 spawnX = x;
 spawnY = y;
 vulnerable = true;
+canScratch = true;
+global.scratch_time = 8;

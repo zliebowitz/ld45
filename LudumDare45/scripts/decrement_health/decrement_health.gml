@@ -6,6 +6,9 @@ health--;
 if (health <= 0)
 {
         instance_destroy(argument0.id);
+		// Destroys all instances
+		instance_destroy(object_scratch);
+		instance_destroy(object_money);
 }
 else
 {
