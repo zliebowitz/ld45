@@ -2,7 +2,8 @@ if (!argument0.vulnerable)
 {
 	return;
 }
-health--;
+// TODO: Armor mod
+health -= 4;
 if (health <= 0)
 {
         argument0.sprite_index = sprite_kitten_dying;
