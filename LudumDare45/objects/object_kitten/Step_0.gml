@@ -91,5 +91,17 @@ if (keyboard_check_pressed(vk_shift) && canScratch)
 	s.image_xscale = image_xscale;
 }
 
+if (keyboard_check_pressed(ord("S")))
+{
+	if (room == room_shop)
+	{
+		room_goto_next()
+	}
+	else
+	{
+		room_goto(room_shop);
+	}
+}
+
 x = floor(kittenX);
 y = floor(kittenY);

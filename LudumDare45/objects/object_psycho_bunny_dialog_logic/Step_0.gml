@@ -64,7 +64,11 @@ else
 
 if (keyboard_check(vk_enter))
 {
-	if (!enterPressed)
+	if (menuItemIndex == 2)
+	{
+		room_goto(room_first);
+	}
+	else if (!enterPressed)
 	{
 		global._text_index = 1;
 		global._char_count = -1;

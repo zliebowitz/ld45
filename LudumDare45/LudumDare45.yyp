@@ -178,7 +178,7 @@
             "Key": "440a87d2-0e4a-4326-8dc9-0ad4cc2bbcd0",
             "Value": {
                 "id": "9305de77-8ed4-4c15-8cee-f157368cc894",
-                "resourcePath": "objects\\object_battle_zone_music\\object_battle_zone_music.yy",
+                "resourcePath": "objects\/object_battle_zone_music\/object_battle_zone_music.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -474,7 +474,7 @@
             "Key": "d7c9a76e-19fb-4543-8308-e679132b3d91",
             "Value": {
                 "id": "9e457810-6ab6-4ea0-8a3d-ae16fe61fd3c",
-                "resourcePath": "sounds\\sound_battle_zone\\sound_battle_zone.yy",
+                "resourcePath": "sounds\/sound_battle_zone\/sound_battle_zone.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -524,6 +524,14 @@
                 "id": "ccd8bd34-16e1-4433-9a68-e798a5d4a88f",
                 "resourcePath": "objects\/object_money\/object_money.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ee284588-a0f1-458c-a975-94cde8f21113",
+            "Value": {
+                "id": "7dd98882-993b-46d1-9f1a-566b37ab9464",
+                "resourcePath": "views\/f5d5a694-69d0-4ab9-b729-f1313b64ffa7-room.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -578,7 +586,7 @@
             "Key": "fda59c8b-b32d-489b-b25d-db95a3c5640a",
             "Value": {
                 "id": "a0dbcc30-55a5-4ff8-9588-b0eb06a52e9d",
-                "resourcePath": "objects\\object_stop_music\\object_stop_music.yy",
+                "resourcePath": "objects\/object_stop_music\/object_stop_music.yy",
                 "resourceType": "GMObject"
             }
         },
