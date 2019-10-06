@@ -138,7 +138,7 @@
             "Key": "343c5f19-bb11-4716-b6e9-f7fce56da712",
             "Value": {
                 "id": "59420979-7604-4a9b-8895-cf114c580b0c",
-                "resourcePath": "sprites\\sprite_kitten_dying\\sprite_kitten_dying.yy",
+                "resourcePath": "sprites\/sprite_kitten_dying\/sprite_kitten_dying.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,7 +362,7 @@
             "Key": "9d9c0cc7-42b7-4fe0-8f46-f1518db7fa8f",
             "Value": {
                 "id": "4e07af2e-e65a-4dd3-8e27-f45068ab9296",
-                "resourcePath": "views\\9d9c0cc7-42b7-4fe0-8f46-f1518db7fa8f.yy",
+                "resourcePath": "views\/9d9c0cc7-42b7-4fe0-8f46-f1518db7fa8f.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -378,7 +378,7 @@
             "Key": "a1818a45-419d-4d49-92b9-7fe15e0578b1",
             "Value": {
                 "id": "02d1e49e-50db-447d-9489-af7cccd45edc",
-                "resourcePath": "sprites\\sprite_mean_yarn_ball_dying\\sprite_mean_yarn_ball_dying.yy",
+                "resourcePath": "sprites\/sprite_mean_yarn_ball_dying\/sprite_mean_yarn_ball_dying.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -524,14 +524,6 @@
                 "id": "ccd8bd34-16e1-4433-9a68-e798a5d4a88f",
                 "resourcePath": "objects\/object_money\/object_money.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ee284588-a0f1-458c-a975-94cde8f21113",
-            "Value": {
-                "id": "7dd98882-993b-46d1-9f1a-566b37ab9464",
-                "resourcePath": "views\/f5d5a694-69d0-4ab9-b729-f1313b64ffa7-room.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
