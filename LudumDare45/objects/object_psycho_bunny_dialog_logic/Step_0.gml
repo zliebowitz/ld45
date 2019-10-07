@@ -173,18 +173,25 @@ else if (menu == buyMenu)
 		{
 			if (menuItemIndex == 0)
 			{
+				global.has_gun = true;
+				global._text_index = 3;
 			}
 			else if (menuItemIndex == 1)
 			{
+				global.has_armor = true;
+				global._text_index = 3;
 			}
 			else if (menuItemIndex == 2)
 			{
+				global.has_helmet = true;
+				global._text_index = 3;
 			}
 			else
 			{
 				object_exit_menu_item.image_index = 0;
 				menu = mainMenu;
 				menuItemIndex = 0;
+				global._text_index = 1;
 			}
 			enterPressed = true;
 		}

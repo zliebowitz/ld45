@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!variable_global_exists("has_armor"))
+if (!variable_global_exists("has_gun"))
 {
-	global.has_armor = false;
+	global.has_gun = false;
 }
