@@ -196,26 +196,30 @@ else if (menu == buyMenu)
 				global.money -= global.gun_price;
 				global.has_gun = true;
 				global._text_index = 1;
+				audio_play_sound(sound_purchase_complete, 10, false);
 			}
 			else if (menuItemIndex == 1 && !global.has_armor && global.money >= global.armor_price)
 			{
 				global.money -= global.armor_price;
 				global.has_armor = true;
 				global._text_index = 1;
+				audio_play_sound(sound_purchase_complete, 10, false);
 			}
 			else if (menuItemIndex == 2 && !global.has_helmet && global.money >= global.helmet_price)
 			{
 				global.money -= global.helmet_price;
 				global.has_helmet = true;
 				global._text_index = 1;
+				audio_play_sound(sound_purchase_complete, 10, false);
 			}
 			// not bothering to figure out index of exit
 			else if (menuItemIndex > 2 ||menuItemIndex < 0)
 			{
-				object_exit_menu_item.image_index = 0;
-				menu = mainMenu;
-				menuItemIndex = 0;
-				global._text_index = 1;
+				//object_exit_menu_item.image_index = 0;
+				//menu = mainMenu;
+				//menuItemIndex = 0;
+				//global._text_index = 1;
+				room_goto(room01);
 			}
 			else
 			{

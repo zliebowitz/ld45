@@ -127,6 +127,22 @@
             }
         },
         {
+            "Key": "18fda0ac-8645-43a9-ae8b-52fca211bd4e",
+            "Value": {
+                "id": "b5ffec85-300d-49e1-9452-044b7cc2d6ee",
+                "resourcePath": "objects\\object_dungeon_music\\object_dungeon_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1ac5e75d-f6a1-43a6-add7-2f32d9619f09",
+            "Value": {
+                "id": "1aaf1e90-1110-4c85-8508-1ea036a45a6f",
+                "resourcePath": "sounds\\sound_purchase_complete\\sound_purchase_complete.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1c88a86e-b4eb-46ca-a513-b6220796ce70",
             "Value": {
                 "id": "19ea1521-fd16-4910-b9be-e8f70ba09031",
@@ -716,6 +732,14 @@
                 "id": "ced21970-6f0f-4a2f-901b-01bfa2847922",
                 "resourcePath": "sprites\/sprite_helmet_jumping\/sprite_helmet_jumping.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c27f1dee-f110-441b-8a7b-62de5fcc8b24",
+            "Value": {
+                "id": "ce7c43cb-42a6-4a2f-87f7-72cfbefe452c",
+                "resourcePath": "sounds\\sound_dungeon_music\\sound_dungeon_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
