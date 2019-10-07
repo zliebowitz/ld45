@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "15205ac2-0a75-45a5-a526-97642585d84f",
+            "Value": {
+                "id": "fc3e504c-1b41-4abc-924f-bf1e3b1b0b73",
+                "resourcePath": "objects\\object_title_music\\object_title_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15faee30-4711-4c9a-b1b1-24d1b2121699",
             "Value": {
                 "id": "c6af4a8b-02ac-4bc5-bdb8-9a1c550e8235",
@@ -204,6 +212,22 @@
                 "id": "ae97b8f5-d804-413b-8477-f6055d8e4fac",
                 "resourcePath": "objects\/object6\/object6.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "35a78e5b-e2e4-4c0e-ab86-9d1ea368c574",
+            "Value": {
+                "id": "1efe879a-437b-42f0-9192-93fda9227e86",
+                "resourcePath": "rooms\\room_title_screen\\room_title_screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "37eb1d2a-8199-4738-8e52-8c5b24c66347",
+            "Value": {
+                "id": "c79b7a9a-8bba-448d-913f-de087c2a29d4",
+                "resourcePath": "sprites\\sprite_attack_of_the_killer_yarn_balls\\sprite_attack_of_the_killer_yarn_balls.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -407,11 +431,27 @@
             }
         },
         {
+            "Key": "75ce807f-e569-44b8-b921-dad75611fae5",
+            "Value": {
+                "id": "29111b2e-8649-470f-affa-97e29b687073",
+                "resourcePath": "objects\\object_title_controls\\object_title_controls.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "761ebeb6-5707-4621-9d83-0dbea1f828aa",
             "Value": {
                 "id": "9ba64b73-5d70-445a-a8f0-4df31a4ee099",
                 "resourcePath": "scripts\/draw_action_dialogue\/draw_action_dialogue.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "767d93a2-0c6e-4de1-a7dd-dd447c144331",
+            "Value": {
+                "id": "468de68e-a14e-45fb-8069-c4ab56560f25",
+                "resourcePath": "sounds\\sound_title_music\\sound_title_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {

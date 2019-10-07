@@ -1,48 +1,28 @@
 {
-    "id": "440a87d2-0e4a-4326-8dc9-0ad4cc2bbcd0",
+    "id": "15205ac2-0a75-45a5-a526-97642585d84f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object_battle_zone_music",
+    "name": "object_title_music",
     "eventList": [
         {
-            "id": "b46d308e-1306-47d6-8c10-10ac98b2bf45",
+            "id": "11378044-0594-4840-b267-b7a6aac3e67c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "440a87d2-0e4a-4326-8dc9-0ad4cc2bbcd0"
+            "m_owner": "15205ac2-0a75-45a5-a526-97642585d84f"
         },
         {
-            "id": "7bdc1a35-aee5-4ac1-a0b9-584f036a44ec",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "440a87d2-0e4a-4326-8dc9-0ad4cc2bbcd0"
-        },
-        {
-            "id": "befd0afa-91eb-4d60-9d79-3f8dbfc60d06",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "440a87d2-0e4a-4326-8dc9-0ad4cc2bbcd0"
-        },
-        {
-            "id": "d3c71c3a-6685-4fdd-9f2d-5f53c8b25c81",
+            "id": "c2ab12a5-1b5b-4ea3-9115-38109f76b3eb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 5,
             "eventtype": 7,
-            "m_owner": "440a87d2-0e4a-4326-8dc9-0ad4cc2bbcd0"
+            "m_owner": "15205ac2-0a75-45a5-a526-97642585d84f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
