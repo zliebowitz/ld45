@@ -87,10 +87,10 @@ while (place_meeting(kittenX, kittenY, object_money))
 }
 
 // handle attacking
-if (keyboard_check_pressed(vk_shift) && canScratch)
+if (keyboard_check_pressed(vk_shift) && canAttack)
 {
-	canScratch = false;
-	alarm[1] = global.scratch_time;
+	canAttack = false;
+	alarm[1] = global.attack_time;
 	// width becomes negative if facing left ... (Hoskins discovery)
 	var s = instance_create_layer(x + sprite_width, y - 12, layer, object_scratch);
 	s.image_xscale = image_xscale;

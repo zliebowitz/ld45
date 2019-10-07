@@ -21,5 +21,5 @@ if (health > global.max_health || health <= 0)
 spawnX = x;
 spawnY = y;
 vulnerable = true;
-canScratch = true;
-global.scratch_time = 8;
+canAttack = true;
+global.attack_time = 8;
