@@ -6,7 +6,11 @@ if (!argument0.vulnerable)
 damage = 4;
 if (global.has_armor == true)
 {
-	damage  = 2;
+	damage  /= 2;
+}
+if (global.has_helmet == true)
+{
+	damage /= 2;
 }
 health -= damage;
 if (health <= 0)
