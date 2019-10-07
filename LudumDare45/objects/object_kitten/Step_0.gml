@@ -92,7 +92,7 @@ if (keyboard_check_pressed(vk_shift) && canScratch)
 	canScratch = false;
 	alarm[1] = global.scratch_time;
 	// width becomes negative if facing left ... (Hoskins discovery)
-	var s = instance_create_layer(x + sprite_width, y - 7, layer, object_scratch);
+	var s = instance_create_layer(x + sprite_width, y - 12, layer, object_scratch);
 	s.image_xscale = image_xscale;
 }
 
