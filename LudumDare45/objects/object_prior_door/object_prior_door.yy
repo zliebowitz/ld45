@@ -2,7 +2,7 @@
     "id": "17c3d206-fd26-4318-be2f-15c6a394b56d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object_shop_door",
+    "name": "object_prior_door",
     "eventList": [
         {
             "id": "ba83b73a-02dd-4f01-9a47-2d6baa73ebec",

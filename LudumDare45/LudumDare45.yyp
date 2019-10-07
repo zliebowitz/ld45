@@ -122,7 +122,7 @@
             "Key": "17c3d206-fd26-4318-be2f-15c6a394b56d",
             "Value": {
                 "id": "37cbacf3-e95d-43cc-9e37-411e3de7ab20",
-                "resourcePath": "objects\/object_shop_door\/object_shop_door.yy",
+                "resourcePath": "objects\/object_prior_door\/object_prior_door.yy",
                 "resourceType": "GMObject"
             }
         },
