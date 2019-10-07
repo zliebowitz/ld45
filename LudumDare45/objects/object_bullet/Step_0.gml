@@ -3,6 +3,7 @@
 if (place_meeting(x, y, object_mean_yarn_ball))
 {
 	instance_destroy(object_mean_yarn_ball);
+	instance_destroy();
 }
 x += dx;
 if (place_meeting(x, y, object_mean_yarn_ball))
