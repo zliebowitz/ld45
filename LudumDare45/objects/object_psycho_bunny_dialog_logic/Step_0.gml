@@ -166,32 +166,60 @@ else if (menu == buyMenu)
 	{
 		upPressed = false;
 	}
+
+	if (upPressed || downPressed)
+	{
+		if (menuItemIndex == 0)
+		{
+			global._text_index = 3;
+		}
+		else if (menuItemIndex == 1)
+		{
+			global._text_index = 4;
+		}
+		else if (menuItemIndex == 2)
+		{
+			global._text_index = 5;
+		}
+		else
+		{
+			global._text_index = 0;
+		}
+	}
 	
 	if (keyboard_check(vk_enter))
 	{
 		if (!enterPressed)
 		{
-			if (menuItemIndex == 0)
+			if (menuItemIndex == 0 && !global.has_gun && global.money >= global.gun_price)
 			{
+				global.money -= global.gun_price;
 				global.has_gun = true;
-				global._text_index = 3;
+				global._text_index = 1;
 			}
-			else if (menuItemIndex == 1)
+			else if (menuItemIndex == 1 && !global.has_armor && global.money >= global.armor_price)
 			{
+				global.money -= global.armor_price;
 				global.has_armor = true;
-				global._text_index = 3;
+				global._text_index = 1;
 			}
-			else if (menuItemIndex == 2)
+			else if (menuItemIndex == 2 && !global.has_helmet && global.money >= global.helmet_price)
 			{
+				global.money -= global.helmet_price;
 				global.has_helmet = true;
-				global._text_index = 3;
+				global._text_index = 1;
 			}
-			else
+			// not bothering to figure out index of exit
+			else if (menuItemIndex > 2 ||menuItemIndex < 0)
 			{
 				object_exit_menu_item.image_index = 0;
 				menu = mainMenu;
 				menuItemIndex = 0;
 				global._text_index = 1;
+			}
+			else
+			{
+				global._text_index = 2;
 			}
 			enterPressed = true;
 		}

@@ -1,12 +1,14 @@
 global.dialogue_text[0] = "Hiya!\nWhat can I do ya fer?";
 global.dialogue_text[1] = "Ooooooooo... YEA!  CAN DO!!!";
 global.dialogue_text[2] = "Ooooooooo... NO!  I CANNOT DO THAT!!!";
-global.dialogue_text[3] = "Ooooooooo... Yea! CAN TRADE THAT!!!!";
+global.dialogue_text[3] = "Ooooooooo... Yea! THAT'S " + string(global.gun_price) + "!!!";
+global.dialogue_text[4] = "Ooooooooo... Yea! THAT'S " + string(global.armor_price) + "!!!";
+global.dialogue_text[5] = "Ooooooooo... Yea! THAT'S " + string(global.helmet_price) + "!!!";
 
 global._text_index = 0;
 //global._num_text_indexes = array_length_1d(global.dialogue_text);
 global._char_count = -1;
-global._max_char_count = string_length(global.dialogue_text[0]);
+global._max_char_count = string_length(global.dialogue_text[3]);
 global._new_char_frame_count = 0;
 global._max_new_char_frame_count = 2;
 //global._read_pause_count = 0;
