@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1767d92b-43c6-4819-8e7c-79611dcb5dda",
+            "Value": {
+                "id": "23938ca9-f20e-48ef-9a2d-17cd6502ebda",
+                "resourcePath": "sprites\\sprite_helmet_walking\\sprite_helmet_walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "17b8f338-44f8-46ed-a037-095887137307",
             "Value": {
                 "id": "db2c6410-cdf9-471e-aebc-77b5cb48a435",
@@ -203,6 +211,14 @@
             "Value": {
                 "id": "58e76192-070d-40cd-ad0f-38962f40d7ea",
                 "resourcePath": "sprites\/sprite_kitten_falling\/sprite_kitten_falling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "38919860-9445-4369-bf99-6568755dcc55",
+            "Value": {
+                "id": "bc70cd73-e111-468c-b076-246a6e2f0e38",
+                "resourcePath": "sprites\\sprite_helmet_idle\\sprite_helmet_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -372,6 +388,14 @@
                 "id": "ad74d88f-974d-4535-8844-e2f1933b3764",
                 "resourcePath": "sprites\/sprite_sell_menu_item\/sprite_sell_menu_item.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "70b38c26-2d05-4f96-bbca-f7a06eaabcb4",
+            "Value": {
+                "id": "8d14b231-b5df-4467-8464-e2955bfec316",
+                "resourcePath": "views\\70b38c26-2d05-4f96-bbca-f7a06eaabcb4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -567,6 +591,14 @@
             }
         },
         {
+            "Key": "b5145c18-8c66-4aad-9387-8060b2f59929",
+            "Value": {
+                "id": "c21b867e-a186-4e2a-9770-ab4626b4b4b3",
+                "resourcePath": "sprites\\sprite_helmet_falling\\sprite_helmet_falling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b666bc15-2fd2-4042-a0ab-1b8b9fab118a",
             "Value": {
                 "id": "a025cdc0-f62c-498f-9e8b-ad7cb1ab526d",
@@ -587,6 +619,22 @@
             "Value": {
                 "id": "c7c9ceda-9e4e-4fac-b456-92494bdd62df",
                 "resourcePath": "sprites\\sprite_gun_jumping\\sprite_gun_jumping.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf269e48-a1ae-439f-8805-be08c91fc3b9",
+            "Value": {
+                "id": "ced21970-6f0f-4a2f-901b-01bfa2847922",
+                "resourcePath": "sprites\\sprite_helmet_jumping\\sprite_helmet_jumping.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c3846648-2870-4ea6-bbc7-d65792d9e1b4",
+            "Value": {
+                "id": "f669db95-670f-45e6-992b-8d6cde1b6653",
+                "resourcePath": "sprites\\sprite_helmet_dying\\sprite_helmet_dying.yy",
                 "resourceType": "GMSprite"
             }
         },
