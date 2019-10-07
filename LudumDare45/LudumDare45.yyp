@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "08ae884c-03eb-4de3-8b1b-df567bfd43ff",
+            "Value": {
+                "id": "6a4e2f8a-1d59-4b31-83ec-c71f80576ab6",
+                "resourcePath": "objects\/object_armor\/object_armor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d6ef25c-6dea-4496-9a02-d2a626c93df9",
             "Value": {
                 "id": "2e0e3295-76c7-423c-a9af-53cea9fc8061",
@@ -354,7 +362,7 @@
             "Key": "74e61be9-80c9-4409-8077-8c4ba649d1c0",
             "Value": {
                 "id": "50daa56c-a988-4ef5-918d-9f0b4bad6d3b",
-                "resourcePath": "sprites\\sprite_armor_dying\\sprite_armor_dying.yy",
+                "resourcePath": "sprites\/sprite_armor_dying\/sprite_armor_dying.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -370,7 +378,7 @@
             "Key": "7ef347e0-506a-4dd4-844c-98f0f8910b7e",
             "Value": {
                 "id": "e842ab90-ba30-451e-b115-c2027630ab73",
-                "resourcePath": "sprites\\sprite_armor_jumping\\sprite_armor_jumping.yy",
+                "resourcePath": "sprites\/sprite_armor_jumping\/sprite_armor_jumping.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -434,7 +442,7 @@
             "Key": "9a69dfe3-a06b-4a04-8984-97c3f8b32be4",
             "Value": {
                 "id": "6fc78262-a1ac-4e0e-8af2-583e3dad6df7",
-                "resourcePath": "sprites\\sprite_armor_falling\\sprite_armor_falling.yy",
+                "resourcePath": "sprites\/sprite_armor_falling\/sprite_armor_falling.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -458,7 +466,7 @@
             "Key": "9e0413f6-c5e1-4493-a1cf-d6d4dd238572",
             "Value": {
                 "id": "2f8b0841-2155-4303-9fda-347e4b6dcfea",
-                "resourcePath": "sprites\\sprite_armor_idle\\sprite_armor_idle.yy",
+                "resourcePath": "sprites\/sprite_armor_idle\/sprite_armor_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -586,7 +594,7 @@
             "Key": "d8cfbac4-d572-4a50-859c-61378527dd32",
             "Value": {
                 "id": "f5479c24-d22e-4359-810b-8ab79f71c1dd",
-                "resourcePath": "views\\d8cfbac4-d572-4a50-859c-61378527dd32.yy",
+                "resourcePath": "views\/d8cfbac4-d572-4a50-859c-61378527dd32.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -698,7 +706,7 @@
             "Key": "f7f6fb34-161d-42d4-b1c1-f6fdae87f05a",
             "Value": {
                 "id": "c601fc71-ca2c-46dc-9072-d50b2e721db3",
-                "resourcePath": "sprites\\sprite_armor_walking\\sprite_armor_walking.yy",
+                "resourcePath": "sprites\/sprite_armor_walking\/sprite_armor_walking.yy",
                 "resourceType": "GMSprite"
             }
         },
