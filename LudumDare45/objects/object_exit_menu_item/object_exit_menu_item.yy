@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "object_exit_menu_item",
     "eventList": [
-        {
-            "id": "a8db24db-8163-453c-8c20-1086b97d4793",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 13,
-            "eventtype": 9,
-            "m_owner": "891b06d5-0344-44d7-bc58-84eeac9e2fbd"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
