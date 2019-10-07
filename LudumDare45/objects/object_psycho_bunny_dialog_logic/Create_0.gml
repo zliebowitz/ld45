@@ -7,3 +7,6 @@ menuItemIndex = 0;
 upPressed = true;
 downPressed = true;
 enterPressed = true;
+mainMenu = 0;
+buyMenu = 1;
+menu = mainMenu;

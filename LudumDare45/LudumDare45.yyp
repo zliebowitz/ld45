@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "090e8b74-0c7c-45b7-8a21-b4dc2d2a2a31",
+            "Value": {
+                "id": "ae9df4fd-2bba-4263-9564-929d9ff8bae2",
+                "resourcePath": "objects\\object_gun_menu_item\\object_gun_menu_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d6ef25c-6dea-4496-9a02-d2a626c93df9",
             "Value": {
                 "id": "2e0e3295-76c7-423c-a9af-53cea9fc8061",
@@ -68,6 +76,14 @@
                 "id": "e9d72a8b-40fe-45f0-8a1b-2caf4b0adf32",
                 "resourcePath": "sounds\/sound_shop_music\/sound_shop_music.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "171fb093-6c13-4b17-ba5e-9a2380540ea1",
+            "Value": {
+                "id": "fdb1ae9b-8776-45b0-9c40-3b3500d72c2b",
+                "resourcePath": "objects\\object_armor_menu_item\\object_armor_menu_item.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -340,6 +356,14 @@
                 "id": "d2861b3e-17c2-4571-8065-80986865b456",
                 "resourcePath": "views\/5b786033-db98-4010-9341-919fb617e32d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5d3a0875-84e8-46ef-99de-9ebe47ae0e12",
+            "Value": {
+                "id": "20974710-3a6f-4461-8745-1ec09b08af84",
+                "resourcePath": "objects\\object_helmet_menu_item\\object_helmet_menu_item.yy",
+                "resourceType": "GMObject"
             }
         },
         {
