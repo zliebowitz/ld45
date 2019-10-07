@@ -64,15 +64,24 @@ else
 
 if (keyboard_check(vk_enter))
 {
-	if (menuItemIndex == 2)
+	if (!enterPressed)
 	{
-		room_goto(room_first);
-	}
-	else if (!enterPressed)
-	{
-		global._text_index = 1;
-		global._char_count = -1;
-		global._max_char_count = string_length(global.dialogue_text[global._text_index]);
+		if (menuItemIndex == 2)
+		{
+			room_goto(room01);
+		}
+		else if (menuItemIndex == 1)
+		{
+			global._text_index = 2;
+			global._char_count = -1;
+			global._max_char_count = string_length(global.dialogue_text[global._text_index]);
+		}
+		else
+		{
+			global._text_index = 1;
+			global._char_count = -1;
+			global._max_char_count = string_length(global.dialogue_text[global._text_index]);
+		}
 		enterPressed = true;
 	}
 }
@@ -81,7 +90,7 @@ else
 	enterPressed = false;
 }
 
-if (global._text_index == 1)
+if (global._text_index == 1 || global._text_index == 2)
 {
 	object_psycho_bunny.sprite_index = sprite_psycho_bunny_psycho;
 }
