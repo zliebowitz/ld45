@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.helmet_price = 2;
-global.armor_price = 5;
-global.gun_price = 8;
+global.helmet_price = 20;
+global.armor_price = 50;
+global.gun_price = 80;
 script_execute(init_action_dialogue);
 script_execute(init_dialogue);
 object_buy_menu_item.image_index = 1;
