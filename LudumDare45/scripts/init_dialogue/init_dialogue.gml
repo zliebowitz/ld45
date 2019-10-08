@@ -6,6 +6,7 @@ global.dialogue_text[4] = "Ooooooooo...\nThis here armor'll cost ya " + string(g
 global.dialogue_text[5] = "Ooooooooo...\nThis here helmet'll cost ya " + string(global.helmet_price) + "!!!";
 global.dialogue_text[6] = "Ooooooooo... I'd love to, but yer gonna need\na lot more MOOOOONEEEEEY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
 global.dialogue_text[7] = "Ooooooooooooooooooooooooooo...";
+global.dialogue_text[8] = "Ooooooooo... BUT YOU ALREADY OWN THAT!!!";
 
 global._text_index = 0;
 //global._num_text_indexes = array_length_1d(global.dialogue_text);

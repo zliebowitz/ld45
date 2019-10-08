@@ -238,7 +238,18 @@ else if (menu == buyMenu)
 			}
 			else
 			{
-				global._text_index = 6;
+				// if the operator already owns the item
+				if ((menuItemIndex == 2 && global.has_helmet) ||
+				(menuItemIndex == 1 && global.has_armor) ||
+				(menuItemIndex == 0 && global.has_gun))
+				{
+					global._text_index = 8;
+				}
+				// if the operator doesn't have enough money
+				else
+				{
+					global._text_index = 6;
+				}
 				global._char_count = -1;
 				global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 			}
