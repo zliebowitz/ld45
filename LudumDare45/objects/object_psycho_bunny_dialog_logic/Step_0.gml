@@ -80,7 +80,7 @@ if (menu == mainMenu)
 			}
 			else
 			{
-				global._text_index = 1;
+				global._text_index = 3;
 				global._char_count = -1;
 				global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 				menu = buyMenu;
@@ -172,18 +172,26 @@ else if (menu == buyMenu)
 		if (menuItemIndex == 0)
 		{
 			global._text_index = 3;
+			global._char_count = -1;
+			global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 		}
 		else if (menuItemIndex == 1)
 		{
 			global._text_index = 4;
+			global._char_count = -1;
+			global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 		}
 		else if (menuItemIndex == 2)
 		{
 			global._text_index = 5;
+			global._char_count = -1;
+			global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 		}
 		else
 		{
-			global._text_index = 0;
+			global._text_index = 7;
+			global._char_count = -1;
+			global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 		}
 	}
 	
@@ -196,6 +204,8 @@ else if (menu == buyMenu)
 				global.money -= global.gun_price;
 				global.has_gun = true;
 				global._text_index = 1;
+				global._char_count = -1;
+				global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 				audio_play_sound(sound_purchase_complete, 10, false);
 			}
 			else if (menuItemIndex == 1 && !global.has_armor && global.money >= global.armor_price)
@@ -203,6 +213,8 @@ else if (menu == buyMenu)
 				global.money -= global.armor_price;
 				global.has_armor = true;
 				global._text_index = 1;
+				global._char_count = -1;
+				global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 				audio_play_sound(sound_purchase_complete, 10, false);
 			}
 			else if (menuItemIndex == 2 && !global.has_helmet && global.money >= global.helmet_price)
@@ -210,20 +222,26 @@ else if (menu == buyMenu)
 				global.money -= global.helmet_price;
 				global.has_helmet = true;
 				global._text_index = 1;
+				global._char_count = -1;
+				global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 				audio_play_sound(sound_purchase_complete, 10, false);
 			}
 			// not bothering to figure out index of exit
 			else if (menuItemIndex > 2 ||menuItemIndex < 0)
 			{
-				//object_exit_menu_item.image_index = 0;
-				//menu = mainMenu;
-				//menuItemIndex = 0;
-				//global._text_index = 1;
-				room_goto(room01);
+				object_exit_menu_item.image_index = 0;
+				menu = mainMenu;
+				menuItemIndex = 0;
+				global._text_index = 0;
+				global._char_count = -1;
+				global._max_char_count = string_length(global.dialogue_text[global._text_index]);
+				//room_goto(room01);
 			}
 			else
 			{
-				global._text_index = 2;
+				global._text_index = 6;
+				global._char_count = -1;
+				global._max_char_count = string_length(global.dialogue_text[global._text_index]);
 			}
 			enterPressed = true;
 		}
@@ -234,7 +252,11 @@ else if (menu == buyMenu)
 	}
 }
 
-if (global._text_index == 1 || global._text_index == 2)
+if (global._text_index != 0)
 {
 	object_psycho_bunny.sprite_index = sprite_psycho_bunny_psycho;
+}
+else
+{
+	object_psycho_bunny.sprite_index = sprite_psycho_bunny_calm;
 }

@@ -1,9 +1,11 @@
 global.dialogue_text[0] = "Hiya!\nWhat can I do ya fer?";
-global.dialogue_text[1] = "Ooooooooo... YEA!  CAN DO!!!";
-global.dialogue_text[2] = "Ooooooooo... NO!  I CANNOT DO THAT!!!";
-global.dialogue_text[3] = "Ooooooooo... Yea! THAT'S " + string(global.gun_price) + "!!!";
-global.dialogue_text[4] = "Ooooooooo... Yea! THAT'S " + string(global.armor_price) + "!!!";
-global.dialogue_text[5] = "Ooooooooo... Yea! THAT'S " + string(global.helmet_price) + "!!!";
+global.dialogue_text[1] = "Ooooooooo... YEA! CAN DO!!!";
+global.dialogue_text[2] = "Ooooooooo... NO! I CANNOT DO THAT!!!";
+global.dialogue_text[3] = "Ooooooooo... YEA! CAN DO!!!\nThis here gun'll cost ya " + string(global.gun_price) + "!!!";
+global.dialogue_text[4] = "Ooooooooo...\nThis here armor'll cost ya " + string(global.armor_price) + "!!!";
+global.dialogue_text[5] = "Ooooooooo...\nThis here helmet'll cost ya " + string(global.helmet_price) + "!!!";
+global.dialogue_text[6] = "Ooooooooo... I'd love to, but yer gonna need\na lot more MOOOOONEEEEEY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+global.dialogue_text[7] = "Ooooooooooooooooooooooooooo...";
 
 global._text_index = 0;
 //global._num_text_indexes = array_length_1d(global.dialogue_text);
