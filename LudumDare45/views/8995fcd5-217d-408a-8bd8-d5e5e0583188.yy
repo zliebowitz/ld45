@@ -9,7 +9,8 @@
         "b666bc15-2fd2-4042-a0ab-1b8b9fab118a",
         "a44ba22d-d6be-4966-a9ea-a401cc212901",
         "6e410583-ce45-4e28-852d-01db6e988c6b",
-        "4c51e56f-7926-4900-9cec-9ab356f529d9"
+        "4c51e56f-7926-4900-9cec-9ab356f529d9",
+        "3bed8343-12d2-44a8-afa0-23070873b45b"
     ],
     "filterType": "GMSprite",
     "folderName": "psycho_bunny",

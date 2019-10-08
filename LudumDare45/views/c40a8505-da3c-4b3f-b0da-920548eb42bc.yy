@@ -12,7 +12,8 @@
         "891b06d5-0344-44d7-bc58-84eeac9e2fbd",
         "090e8b74-0c7c-45b7-8a21-b4dc2d2a2a31",
         "171fb093-6c13-4b17-ba5e-9a2380540ea1",
-        "5d3a0875-84e8-46ef-99de-9ebe47ae0e12"
+        "5d3a0875-84e8-46ef-99de-9ebe47ae0e12",
+        "73b2c732-92aa-461a-be23-4d47a919ddb1"
     ],
     "filterType": "GMObject",
     "folderName": "pyscho_bunny",

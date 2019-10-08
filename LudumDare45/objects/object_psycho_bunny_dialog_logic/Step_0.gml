@@ -105,7 +105,7 @@ else if (menu == buyMenu)
 	
 			if (menuItemIndex == 0)
 			{
-				object_exit_menu_item.image_index = 0;
+				object_cancel_menu_item.image_index = 0;
 				object_gun_menu_item.image_index = 1;
 			}
 			else if (menuItemIndex == 1)
@@ -121,7 +121,7 @@ else if (menu == buyMenu)
 			else if (menuItemIndex == 3)
 			{
 				object_helmet_menu_item.image_index = 0;
-				object_exit_menu_item.image_index = 1;
+				object_cancel_menu_item.image_index = 1;
 			}
 	
 			downPressed = true;
@@ -151,11 +151,11 @@ else if (menu == buyMenu)
 			else if (menuItemIndex == 2)
 			{
 				object_helmet_menu_item.image_index = 1;
-				object_exit_menu_item.image_index = 0;
+				object_cancel_menu_item.image_index = 0;
 			}
 			else if (menuItemIndex == 3)
 			{
-				object_exit_menu_item.image_index = 1;
+				object_cancel_menu_item.image_index = 1;
 				object_gun_menu_item.image_index = 0;
 			}
 	
@@ -229,13 +229,12 @@ else if (menu == buyMenu)
 			// not bothering to figure out index of exit
 			else if (menuItemIndex > 2 ||menuItemIndex < 0)
 			{
-				object_exit_menu_item.image_index = 0;
+				object_cancel_menu_item.image_index = 0;
 				menu = mainMenu;
 				menuItemIndex = 0;
 				global._text_index = 0;
 				global._char_count = -1;
 				global._max_char_count = string_length(global.dialogue_text[global._text_index]);
-				//room_goto(room01);
 			}
 			else
 			{
