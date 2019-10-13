@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "92ddd60e-d430-4512-a9dc-ad633059201b",
+            "Value": {
+                "id": "cc12519b-9bf6-479e-8cc7-145421815b61",
+                "resourcePath": "scripts\\init_kitten\\init_kitten.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "93e251c9-d177-4f10-87e3-824e0ca6e18e",
             "Value": {
                 "id": "c5ca8390-e8f5-4b53-a179-dfbf4ab67b18",
@@ -964,7 +972,8 @@
         "5623c0c6-889b-4b6f-bb26-d10de033cac7",
         "761ebeb6-5707-4621-9d83-0dbea1f828aa",
         "6a6bbcd1-e9ce-4c99-b916-bbe5281bbd6b",
-        "d90bd4e3-37f9-44ec-b31c-af1016c623e2"
+        "d90bd4e3-37f9-44ec-b31c-af1016c623e2",
+        "92ddd60e-d430-4512-a9dc-ad633059201b"
     ],
     "tutorial": ""
 }

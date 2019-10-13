@@ -1,21 +1,5 @@
 if (global._new_char_frame_count == 0 && global.initial_pause_count == global.max_initial_pause_count)
 {
-	//if (global._char_count == global._max_char_count && global._text_index != global._num_text_indexes - 1)
-	//{
-		// go to the next message
-		//if (global._read_pause_count == global._max_read_pause_count)
-		//{
-		//	global._text_index = (global._text_index + 1) % global._num_text_indexes;
-		//	global._char_count = -1;
-		//	global._max_char_count = string_length(global.dialogue_text[global._text_index]);
-		//	global._read_pause_count = 0;
-		//}
-		//else
-		//{
-		//	global._read_pause_count++;
-		//}
-	//}
-	
 	global._char_count = min(global._char_count + 1, global._max_char_count);
 }
 global._new_char_frame_count = (global._new_char_frame_count + 1) % global._max_new_char_frame_count;
